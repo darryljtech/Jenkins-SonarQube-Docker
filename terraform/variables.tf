@@ -19,3 +19,8 @@ variable "vpc_id" {
   description = "The id of vpc"
   default     = "vpc-0a0757ef66a5f26f2"
 }
+
+variable "security_group" {
+  type        = string
+  description = "The name of security group"
+}
